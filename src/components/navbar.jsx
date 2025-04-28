@@ -30,6 +30,15 @@ const Navbar = () => {
                         <a href="#">Demo-6</a>
                         <a href="#">Demo-7</a>
                     </div>
+                    <div className="dropdown_menu d-flex flex-column gap-3">
+                        <a href="#">Demo-1</a>
+                        <a href="#">Demo-2</a>
+                        <a href="#">Demo-3</a>
+                        <a href="#">Demo-4</a>
+                        <a href="#">Demo-5</a>
+                        <a href="#">Demo-6</a>
+                        <a href="#">Demo-7</a>
+                    </div>
                 </div>
                 </a>
           </div>
