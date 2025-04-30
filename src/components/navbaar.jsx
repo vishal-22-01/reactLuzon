@@ -4,7 +4,7 @@ import { RxCaretDown } from "react-icons/rx";
 import { IoIosSearch } from "react-icons/io";
 import { VscListSelection } from "react-icons/vsc";
 
-const Navbar = () => {
+const Navbaar = () => {
   return (
     <>
       <nav className="navbar_container">
@@ -14,7 +14,7 @@ const Navbar = () => {
               <img src={Logo} alt="nav-logo" />
             </div>
             <div className="navbar_links d-flex justify-content-between align-items-start gap-3">
-              <a className="navbar_link" href="#">
+              <a className="navbar_link" href="/home">
                 <div className="home_dropdown">
                   <span>
                     Home
@@ -47,7 +47,7 @@ const Navbar = () => {
                   </div>
                 </div>
               </a>
-              <a className="navbar_link" href="#">
+              <a className="navbar_link" href="/about">
                 About
               </a>
               <a className="navbar_link" href="#">
@@ -167,4 +167,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbaar;
