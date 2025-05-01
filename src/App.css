@@ -375,3 +375,26 @@ body {
 .support_Content_text .section_heading_subtext{
   text-align: start;
 }
+.overView_section{
+  padding: 100px 0 70px;
+  background-color: #f0f1fe;
+}
+.icon_container{
+  background-color: var(--white);
+  border: 1px dashed var(--themeColorOne);
+  padding: 5px;
+  border-radius: 50%;
+}
+.icon_bg{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #85edfe, #6ee0ff, #60d2ff, #5fc2ff, #6bb1ff);
+}
+.icon_bg i{
+  font-size: 30px;
+  color: var(--white);
+}
+.overView .subHeading{
+  margin: 20px 0 5px;
+}

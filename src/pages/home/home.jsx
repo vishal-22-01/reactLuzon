@@ -12,6 +12,10 @@ import Support from "../../assets/images/supportImg.png";
 import { FaToolbox } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
 import { GrCloudSoftware } from "react-icons/gr";
+import { FiEdit } from "react-icons/fi";
+import { GiDeathZone } from "react-icons/gi";
+import { GiMagnifyingGlass } from "react-icons/gi";
+import { PiMonitorArrowUpFill } from "react-icons/pi";
 
 
 const Home = () => {
@@ -159,26 +163,94 @@ const Home = () => {
             <div className="col-lg-6">
               <div className="supportLeft d-flex flex-column align-items-center justify-content-center h-100">
                 <div className="supportLeft_Content d-flex align-items-start">
-                  <i className="support_Content_icon"><FaToolbox /></i>
+                  <i className="support_Content_icon">
+                    <FaToolbox />
+                  </i>
                   <div className="support_Content_text d-flex flex-column justify-content-start">
                     <span className="subHeading">Amazing Support</span>
-                    <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua.</p>
+                    <p className="section_heading_subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incidiunt labore et dolore magna
+                      aliqua.
+                    </p>
                   </div>
                 </div>
                 <div className="supportLeft_Content d-flex align-items-start">
-                  <i className="support_Content_icon"><BsGlobe /></i>
+                  <i className="support_Content_icon">
+                    <BsGlobe />
+                  </i>
                   <div className="support_Content_text d-flex flex-column justify-content-start">
                     <span className="subHeading">Big Data Analysis</span>
-                    <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua.</p>
+                    <p className="section_heading_subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incidiunt labore et dolore magna
+                      aliqua.
+                    </p>
                   </div>
                 </div>
                 <div className="supportLeft_Content d-flex align-items-start">
-                  <i className="support_Content_icon"><GrCloudSoftware /></i>
+                  <i className="support_Content_icon">
+                    <GrCloudSoftware />
+                  </i>
                   <div className="support_Content_text d-flex flex-column justify-content-start">
                     <span className="subHeading">Cloud Computing</span>
-                    <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua.</p>
+                    <p className="section_heading_subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incidiunt labore et dolore magna
+                      aliqua.
+                    </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="overView_section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3">
+              <div className="overView d-flex flex-column justify-content-center align-items-center">
+                <div className="icon_container">
+                  <div className="icon_bg d-flex justify-content-center align-items-center">
+                    <i><FiEdit /></i>
+                  </div>
+                </div>
+                <span className="subHeading">Sketch</span>
+                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="overView d-flex flex-column justify-content-center align-items-center">
+                <div className="icon_container">
+                  <div className="icon_bg d-flex justify-content-center align-items-center">
+                    <i><GiDeathZone /></i>
+                  </div>
+                </div>
+                <span className="subHeading">Design</span>
+                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="overView d-flex flex-column justify-content-center align-items-center">
+                <div className="icon_container">
+                  <div className="icon_bg d-flex justify-content-center align-items-center">
+                    <i><GiMagnifyingGlass /></i>
+                  </div>
+                </div>
+                <span className="subHeading">Teting</span>
+                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="overView d-flex flex-column justify-content-center align-items-center">
+                <div className="icon_container">
+                  <div className="icon_bg d-flex justify-content-center align-items-center">
+                    <i><PiMonitorArrowUpFill /></i>
+                  </div>
+                </div>
+                <span className="subHeading">Develop</span>
+                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
               </div>
             </div>
           </div>
