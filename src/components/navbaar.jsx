@@ -22,29 +22,29 @@ const Navbaar = () => {
                       <RxCaretDown />
                     </i>
                   </span>
-                  <div className="home_dropdown_menu d-flex flex-column gap-2 mt-2">
-                    <a className="dropdown_link" href="#">
+                  <ul className="home_dropdown_menu d-flex flex-column gap-2 mt-2">
+                    <li className="dropdown_link" href="#">
                       Home-Demo-1
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Home-Demo-2
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Home-Demo-3
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Home-Demo-4
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Home-Demo-5
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Home-Demo-6
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Home-Demo-7
-                    </a>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </a>
               <a className="navbar_link" href="/about">
@@ -58,17 +58,17 @@ const Navbaar = () => {
                       <RxCaretDown />
                     </i>
                   </span>
-                  <div className="service_dropdown_menu d-flex flex-column gap-2 mt-2">
-                    <a className="dropdown_link" href="#">
+                  <ul className="service_dropdown_menu d-flex flex-column gap-2 mt-2">
+                    <li className="dropdown_link" href="#">
                       Services Style 1
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Services Style 2
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Services Detail
-                    </a>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </a>
               <a className="navbar_link" href="#">
@@ -80,15 +80,15 @@ const Navbaar = () => {
                     </i>
                   </span>
                   <div className="projects_dropdown_menu d-flex flex-column gap-2 mt-2">
-                    <a className="dropdown_link" href="#">
+                    <li className="dropdown_link" href="#">
                       Projects Style 1
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Projects Style 2
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Projects Detail
-                    </a>
+                    </li>
                   </div>
                 </div>
               </a>
@@ -100,32 +100,32 @@ const Navbaar = () => {
                       <RxCaretDown />
                     </i>
                   </span>
-                  <div className="pages_dropdown_menu d-flex flex-column gap-2 mt-2">
-                    <a className="dropdown_link" href="#">
+                  <ul className="pages_dropdown_menu d-flex flex-column gap-2 mt-2">
+                    <li className="dropdown_link" href="#">
                       Team
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Pricing
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Faq
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Sign In
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Sign Up
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Comming Soon
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Terms & Conditions
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Privacy Policy
-                    </a>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </a>
               <a className="navbar_link" href="#">
@@ -137,15 +137,15 @@ const Navbaar = () => {
                     </i>
                   </span>
                   <div className="blog_dropdown_menu d-flex flex-column gap-2 mt-2">
-                    <a className="dropdown_link" href="#">
+                    <li className="dropdown_link" href="#">
                       Blog Grid
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Blog Right Sidebar
-                    </a>
-                    <a className="dropdown_link" href="#">
+                    </li>
+                    <li className="dropdown_link" href="#">
                       Blog Details
-                    </a>
+                    </li>
                   </div>
                 </div>
               </a>
