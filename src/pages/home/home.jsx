@@ -9,6 +9,10 @@ import Features from "../../components/common/features";
 import WorkImg from "../../assets/images/workImg.jpg";
 import ServiceCard from "../../components/common/serviceCard";
 import Support from "../../assets/images/supportImg.png";
+import Mobile from "../../assets/images/mobile.png"
+import Counter from "../../components/common/counter";
+import Img from "../../components/common/img";
+import TeamOne from "../../assets/images/teamMember1.jpg"
 import { FaToolbox } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
 import { GrCloudSoftware } from "react-icons/gr";
@@ -16,7 +20,6 @@ import { FiEdit } from "react-icons/fi";
 import { GiDeathZone } from "react-icons/gi";
 import { GiMagnifyingGlass } from "react-icons/gi";
 import { PiMonitorArrowUpFill } from "react-icons/pi";
-
 
 const Home = () => {
   return (
@@ -213,44 +216,193 @@ const Home = () => {
               <div className="overView d-flex flex-column justify-content-center align-items-center">
                 <div className="icon_container">
                   <div className="icon_bg d-flex justify-content-center align-items-center">
-                    <i><FiEdit /></i>
+                    <i>
+                      <FiEdit />
+                    </i>
                   </div>
                 </div>
                 <span className="subHeading">Sketch</span>
-                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p className="section_heading_subtext">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore.
+                </p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="overView d-flex flex-column justify-content-center align-items-center">
                 <div className="icon_container">
                   <div className="icon_bg d-flex justify-content-center align-items-center">
-                    <i><GiDeathZone /></i>
+                    <i>
+                      <GiDeathZone />
+                    </i>
                   </div>
                 </div>
                 <span className="subHeading">Design</span>
-                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p className="section_heading_subtext">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore.
+                </p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="overView d-flex flex-column justify-content-center align-items-center">
                 <div className="icon_container">
                   <div className="icon_bg d-flex justify-content-center align-items-center">
-                    <i><GiMagnifyingGlass /></i>
+                    <i>
+                      <GiMagnifyingGlass />
+                    </i>
                   </div>
                 </div>
                 <span className="subHeading">Teting</span>
-                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p className="section_heading_subtext">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore.
+                </p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="overView d-flex flex-column justify-content-center align-items-center">
                 <div className="icon_container">
                   <div className="icon_bg d-flex justify-content-center align-items-center">
-                    <i><PiMonitorArrowUpFill /></i>
+                    <i>
+                      <PiMonitorArrowUpFill />
+                    </i>
                   </div>
                 </div>
                 <span className="subHeading">Develop</span>
-                <p className="section_heading_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p className="section_heading_subtext">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="choose_us_section">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="heding_container d-flex justify-content-center align-items-center flex-column">
+                <h2 className="section_heading">Why Choose Us</h2>
+                <p className="section_heading_subtext">
+                  Lorem ipsums dolor it amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incidiunt labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida.
+                </p>
+                <div className="bar"></div>
+              </div>
+            </div>
+            <div className="choose_us_lower_content">
+              <div className="row">
+                <div className="col-lg-4">
+                  <div className="supportLeft_Content d-flex align-items-start">
+                    <div className="choose_us_icon">
+                    <i className="support_Content_icon">
+                      <GrCloudSoftware />
+                    </i>
+                    </div>
+                    <div className="support_Content_text d-flex flex-column justify-content-start">
+                      <span className="subHeading">Consulting</span>
+                      <p className="section_heading_subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="supportLeft_Content d-flex align-items-start">
+                    <div className="choose_us_icon">
+                    <i className="support_Content_icon">
+                      <GrCloudSoftware />
+                    </i>
+                    </div>
+                    <div className="support_Content_text d-flex flex-column justify-content-start">
+                      <span className="subHeading">Data Management</span>
+                      <p className="section_heading_subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                  <div className="mobile d-flex justify-content-center">
+                    <img src={Mobile} alt="mobile" />
+                  </div>
+                </div>
+                <div className="col-lg-4">
+                <div className="supportLeft_Content d-flex align-items-start">
+                    <div className="choose_us_icon">
+                    <i className="support_Content_icon">
+                      <GrCloudSoftware />
+                    </i>
+                    </div>
+                    <div className="support_Content_text d-flex flex-column justify-content-start">
+                      <span className="subHeading">Page Ranking</span>
+                      <p className="section_heading_subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="supportLeft_Content d-flex align-items-start">
+                    <div className="choose_us_icon">
+                    <i className="support_Content_icon">
+                      <GrCloudSoftware />
+                    </i>
+                    </div>
+                    <div className="support_Content_text d-flex flex-column justify-content-start">
+                      <span className="subHeading">Location Targeting</span>
+                      <p className="section_heading_subtext">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="counter_section">
+        <Counter />
+      </section>
+      <section className="project_section">
+          <div className="row g-0">
+          <div className="col-12">
+              <div className="heding_container d-flex justify-content-center align-items-center flex-column">
+                <h2 className="section_heading">Projects</h2>
+                <p className="section_heading_subtext">
+                  Lorem ipsums dolor it amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incidiunt labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida.
+                </p>
+                <div className="bar"></div>
+              </div>
+            </div>
+            <div className="project_imgs">
+              <Img />
+            </div>
+          </div>
+      </section>
+      <section className="team_section">
+        <div className="container">
+          <div className="row">
+          <div className="col-12">
+              <div className="heding_container d-flex justify-content-center align-items-center flex-column">
+                <h2 className="section_heading">Our Expert Team</h2>
+                <p className="section_heading_subtext">
+                  Lorem ipsums dolor it amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incidiunt labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida.
+                </p>
+                <div className="bar"></div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="team_member">
+                  <div className="team_memberImg">
+                    <img src="" alt="" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

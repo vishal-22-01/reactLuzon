@@ -5,7 +5,7 @@ import Navbaar from "../components/navbaar";
 const Layout = () => {
   return (
     <>
-      <Navbaar />
+      {/* <Navbaar /> */}
       <main>
         <Outlet />
       </main>
